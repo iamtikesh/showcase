@@ -195,7 +195,11 @@ a {
     .title-heading {
       margin-top: 4%;
       }
-
+    
+    .feature-box {
+       margin: 2%;
+       }
+  
     .download-btn, h3 {
       font-size: 2rem;
       }
