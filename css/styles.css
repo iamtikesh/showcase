@@ -173,13 +173,37 @@ a {
 @media (max-width: 1000px) {
   .container-fluid, #title .container-fluid {
      padding: 7% 7%;
+    }
+   body {
+    font-size: 1.6rem;
    }
 
-  #title .row {
-    text-align: center;
-  }
-  .phone-img {
-    position: static;
-    transform: rotate(0);
-  }
+   .navbar-toggler-icon {
+    font-size: 2rem;
+    }
+
+    .nav-link {
+      font-size: 1.6rem;
+      }
+
+    .navbar-brand {
+      font-size: 3rem;
+       }
+     #title .row {
+      text-align: center;
+      }
+    .title-heading {
+      margin-top: 4%;
+      }
+
+    .download-btn, h3 {
+      font-size: 2rem;
+      }
+    #title .row {
+      text-align: center;
+     }
+    .phone-img {
+     position: static;
+     transform: rotate(0);
+    }
 }
