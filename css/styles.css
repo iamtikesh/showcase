@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+   color: #8f8f8f;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+ /* Navigation Bar */
+
+ .navbar {
+   padding:0 0 3rem;
+ }
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+   padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+.title-heading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+ /* Download Button */
+
+.download-btn {
+   margin: 7% 5% 5% 0;
+ }
+
+#linkedIn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.phone-img {
+  width: 50%;
+  padding-top: 15%;
+  transform: rotate(-20deg);
+  position: absolute;
+  right: 18%;
+}
+
+/* Section */
+
+.colored-section {
+  background-color: #99b3ed;
+  color: #fff;
+}
+
+.white-secction {
+  background-color: #fff;
+}
+ /* Features */
+
+#features {
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+ }
+
+
+.icon {
+  color: #99b3edbf;
+  margin-bottom: 2rem;
+}
+
+  .icon:hover {
+    color:  #99b3ed;
+  }
+
+/* Testimonials */
+
+
+
+.testimonial-heading {
+  font-size: 2.5rem;
+}
+
+.testimonial-img {
+   width: 15%;
+   border-radius: 100px;
+   margin:20px;
+}
+
+#press {
+
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 12%;
+  margin: 20px 30px;
+}
+
+
+/* skills section */
+
+#skills {
+  padding: 100px;
+}
+
+.skills-heading {
+  font-size: 2.5rem;
+}
+
+.skills-col {
+  padding: 3% 2%;
+}
+
+/* CTA section */
+
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Footer */
+.social {
+  padding-bottom: 2%;
+}
+
+.social-icon:hover {
+    color: #6f7479; 
+}
+
+  #footer {
+    padding: 7% 15% 4%;
+  }
+
+.social-icon {
+  padding: 10px 20px;
+}
+
+@media (max-width: 1000px) {
+  #title .row {
+    text-align: center;
+  }
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
