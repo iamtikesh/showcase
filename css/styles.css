@@ -171,6 +171,10 @@ a {
 }
 
 @media (max-width: 1000px) {
+  .container-fluid, #title .container-fluid {
+     padding: 7% 7%;
+   }
+
   #title .row {
     text-align: center;
   }
